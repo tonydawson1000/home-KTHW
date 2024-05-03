@@ -28,9 +28,13 @@ To test if Ansible is installed:
 - `ansible-community --version`
 - `ansible localhost -m ansible.builtin.ping`
 
-### To provision the 4 VMss required to start this tutorial
+### To provision the 4 VMs required to start this tutorial
 
 1. Navigate to the `vagrant` folder
+1. Ensure the Vagrant Environment is setup
+    
+    [`vagrant init`](https://developer.hashicorp.com/vagrant/docs/cli/init)
 1. Run 
-    `vagrant up`
+    
+    [`vagrant up`](https://developer.hashicorp.com/vagrant/docs/cli/up)
 
