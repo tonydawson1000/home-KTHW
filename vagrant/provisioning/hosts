@@ -1,0 +1,11 @@
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1   localhost
+10.25.11.5  jumpbox
+10.25.11.6  server
+10.25.11.10 node-0
+10.25.11.11 node-1

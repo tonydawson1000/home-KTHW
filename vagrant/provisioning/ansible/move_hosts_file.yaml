@@ -1,0 +1,9 @@
+---
+
+- hosts: all
+  become: true
+  tasks:
+    - name: Ensure hosts file exists
+      ansible.builtin.copy:
+        src: ../hosts
+        dest: /etc/hosts
